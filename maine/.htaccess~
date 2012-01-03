@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName ""
-AuthUserFile /home/rosinski/passwords
-Require valid-user
