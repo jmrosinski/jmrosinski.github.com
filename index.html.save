@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>Jim's webpages</TITLE>
+<meta name="Author" content="Jim Rosinski">
+<meta name="Keywords" content="skyhawk","baja","sand dunes","airstrip","utah">
+</HEAD>
+<BODY BGCOLOR="peachpuff">
+<a href="baja/P1270073.crop.JPG"><img src="baja/P1270073.crop.thumb.JPG" alt="Baja trip: me next to a fig tree" hspace=5></a> 
+<br clear=left>
+<p>
+<b><font size=+2 color=navy>Jim Rosinski's web pages</font></b>
+<HR SIZE=2 WIDTH="100%" ALIGN="LEFT" NOSHADE>
+
+<b><font size=+2 color=navy>Work-related</font></b><BR>
+<UL>
+
+<LI><ALIGN=LEFT><A HREF="vitae.html">Curriculum Vitae</A>
+
+</UL>
+
+<HR SIZE=2 WIDTH="100%" ALIGN="LEFT" NOSHADE>
+<b><font size=+2 color=navy>Play-related</font></b><BR>
+<UL>
+
+<LI><ALIGN=LEFT><A HREF="baja/index.html">Baja trip photos</A><BR>
+<LI><ALIGN=LEFT><A HREF="airplane/index.html">1972 Cessna Skyhawk</A><BR>
+<LI><ALIGN=LEFT><A HREF="longs/index.html">Photos of Longs Peak from the air</A><BR>
+<LI><ALIGN=LEFT><A HREF="FallColors2003/index.html">Colorado Fall Colors 2003</A><BR>
+<LI><ALIGN=LEFT><A HREF="Steamboat/index.html">Flight to Steamboat Springs</A><BR>
+<LI><ALIGN=LEFT><A HREF="SandDunes/index.html">Trip to Sand Dunes and Black Canyon of the Gunnison</A><BR>
+<LI><ALIGN=LEFT><A HREF="tucson/index.html">Trip to Tucson and vicinity</A><BR>
+<LI><ALIGN=LEFT><A HREF="utahairstrips/index.html">Utah backcountry airstrips</A><BR>
+
+</UL>
+
+<p>
+<HR SIZE=2 WIDTH="100%" ALIGN="LEFT" NOSHADE>
+<!--
+<b>Main web page and email address<br>
+<A HREF="http://www.cgd.ucar.edu/cms/rosinski/index.html">Jim Rosinski</A>
+(<A HREF="mailto:rosinski@ucar.edu">rosinski@ucar.edu</A>)</b>
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+var trackerPath = "log/tracker.php";
+var pageRef = "homepage";
+document.write("<iframe src=\""+trackerPath+"\?page="+ pageRef + "&ref="+document.referrer+"\" width=1 height=1 marginwidth=0 marginheight=0 frameborder=0 scrolling=\"no\"><\/iframe>")
+//-->
+</SCRIPT>
+
+</BODY>
+</HTML>

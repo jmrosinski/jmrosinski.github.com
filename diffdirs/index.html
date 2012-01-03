@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>diffdirs.pl</title>
+<meta name="description" content="compare two directories">
+<meta name="Keywords" content="directories","compare">
+<meta name="Author" content="Jim Rosinski">
+<h1>diffdirs.pl</h1>
+</head>
+<body bgcolor="peachpuff">
+
+<b>diffdirs.pl</b> is a Perl script to show the differences between files in
+    2 directory hierarchies. Download it <A HREF="diffdirs.pl">here.</a>
+    Usage is: 
+<pre>
+diffdirs.pl [-s suffix] [-v] [-1] [-2] dir1 dir2
+ -s suffix => only compare files ending in <b>suffix</b>
+ -i suffix => never compare files ending in <b>suffix</b>
+ -v        => verbose: show diffs and stop on each file with non-zero diffs
+ -1        => list files only in first dir hierarchy
+ -2        => list files only in second dir hierarchy
+</pre>
+
+As an example usage, here's how one might determine which files ending in
+.F90 differ, and how, between one directory hierarchy and another:
+<pre>
+diffdirs.pl -s F90 -v ~/POP_LANL/ ~/POP_LANL_MODIFIED/
+</pre>
+
+This will compare only files which end in the suffix F90, and exist in the
+same place in both subdirectory hierarchies. It will list the
+diffs for each file encountered (the -v option).
+
+<HR SIZE=2 WIDTH="100%" ALIGN="LEFT" NOSHADE>
+
+<h2>Bug Reports</h2>
+Please <a HREF="mailto:rosinskijm@ornl.gov">email</a> me bug reports
+	and/or modification requests.
+
+<h2>Author</h2>
+<b>diffdirs.pl</b> was written
+by <a HREF="http://www.burningserver.net/rosinski">Jim Rosinski</a>,
+currently at <a HREF="http://www.ornl.gov">ORNL</a>, formerly
+  at <a HREF="http://www.sicortex.com">SiCortex</a>,
+and <a HREF="http://www.ucar.edu">NCAR</a>. 
+<h2>Copyright</h2>
+This software is <b>Open Source</b>.
+</html>

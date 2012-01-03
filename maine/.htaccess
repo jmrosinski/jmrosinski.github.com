@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Jims Private Pages"
+AuthUserFile /home/rosinski/passwords
+Require valid-user
